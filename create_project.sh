@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SCHLIB_URL="${SCHLIB_URL:-git@github.com:cpavlina/kicad-schlib}"
-PCBLIB_URL="${PCBLIB_URL:-git@github.com:cpavlina/kicad-pcblib}"
+SCHLIB_URL="${SCHLIB_URL:-git@github.com:sethhillbrand/kicad-schlib}"
+PCBLIB_URL="${PCBLIB_URL:-git@github.com:sethhillbrand/kicad-pcblib}"
 
 BN="$(basename "$0")"
 
@@ -105,7 +105,7 @@ version=1
 LibDir=kicad-schlib/library
 [eeschema/libraries]
 EOF
-    count=1 # kicad, this is fucking stupid
+    count=1 
     for i in schlib/library/*.lib; do
         libname="${i/%.lib/}"
         echo "LibName${count}=${libname}" >>"$filename"
