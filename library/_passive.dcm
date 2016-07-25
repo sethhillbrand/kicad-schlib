@@ -16,6 +16,11 @@ $CMP C
 D Capacitor
 $ENDCMP
 #
+$CMP C-3TERM
+D Capacitor, 3 terminal
+K three, capacitor, filter
+$ENDCMP
+#
 $CMP CMBEAD
 D Common-mode ferrite bead
 $ENDCMP
