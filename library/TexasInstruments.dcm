@@ -356,6 +356,12 @@ $CMP OPA4376AIPW
 D OpAmp.4 5.5MHz RRI RRO CMOS VLowVos VLowIB LowNoise [TSSOP-14]
 $ENDCMP
 #
+$CMP OPA615IDGS
+D Wide-Bandwidth, DC Restoration Circuit [MSOP-10]
+K Operational Transconductance Amplifier, Buffer, OpAmp
+F http://www.ti.com/lit/ds/symlink/opa615.pdf
+$ENDCMP
+#
 $CMP PTN78000WAH
 D Reg Buck in:36V AdjV 1.5A Module [PTH]
 $ENDCMP
