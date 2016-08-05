@@ -237,6 +237,12 @@ $CMP ADCMP605BCPZ
 D Comp 1.6ns RRI LVDS ProgHysteresis IndepOutRail [LFCSP-12]
 $ENDCMP
 #
+$CMP ADM7150ACPZ
+D 800 mA Ultralow Noise, High PSRR, RF Linear Regulator
+K LDO, low-noise, regulator, linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM7150.pdf
+$ENDCMP
+#
 $CMP ADM7151
 D 800 mA Ultralow Noise, High PSRR, RF Linear Regulator
 K LDO, low-noise, regulator, linear
@@ -272,6 +278,12 @@ D Reg.4 Buck in:15.5V 2x6A 2x2A [QFN-48]
 $ENDCMP
 #
 $CMP ADP7182
+D –28 V, −200 mA, Low Noise, Linear Regulator
+K LDO, low-noise, regulator, linear, negative
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
+$ENDCMP
+#
+$CMP ADP7182ACPZN
 D –28 V, −200 mA, Low Noise, Linear Regulator
 K LDO, low-noise, regulator, linear, negative
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
