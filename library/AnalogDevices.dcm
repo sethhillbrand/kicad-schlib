@@ -53,6 +53,11 @@ D Ultralow Distortion, High Speed, 0.95 nV/√Hz Voltage Noise Op Amp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8099.pdf
 $ENDCMP
 #
+$CMP AD8099ARDZ
+D Ultralow Distortion, High Speed, 0.95 nV/√Hz Voltage Noise Op Amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8099.pdf
+$ENDCMP
+#
 $CMP AD8310ARMZ
 D LogDetect 95dB 440MHz [MSOP-8]
 $ENDCMP
@@ -249,6 +254,12 @@ K LDO, low-noise, regulator, linear
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM7151.pdf
 $ENDCMP
 #
+$CMP ADM7170ACPZ
+D 800 mA Ultralow Noise, High PSRR, RF Linear Regulator
+K LDO, low-noise, regulator, linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM7150.pdf
+$ENDCMP
+#
 $CMP ADP151AUJZ-v.v
 D Reg LDO 200mA [TSOT-23-5]
 $ENDCMP
@@ -278,6 +289,12 @@ D Reg.4 Buck in:15.5V 2x6A 2x2A [QFN-48]
 $ENDCMP
 #
 $CMP ADP7182
+D –28 V, −200 mA, Low Noise, Linear Regulator
+K LDO, low-noise, regulator, linear, negative
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
+$ENDCMP
+#
+$CMP ADP7182ACPZ-5.0-R7
 D –28 V, −200 mA, Low Noise, Linear Regulator
 K LDO, low-noise, regulator, linear, negative
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
@@ -339,6 +356,11 @@ $ENDCMP
 #
 $CMP ADR4550BRZ
 D VRef Series 5V 0.02% 2ppm/K [SOIC-8]
+$ENDCMP
+#
+$CMP DS4520
+D 9-Bit I2C Nonvolatile I/O Expander Plus Memory
+F http://datasheets.maximintegrated.com/en/ds/DS4520.pdf
 $ENDCMP
 #
 $CMP OP07CPZ

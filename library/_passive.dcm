@@ -29,6 +29,10 @@ $CMP CMCHOKE
 D Common-mode choke
 $ENDCMP
 #
+$CMP CMCHOKE-TDK
+D Common-mode choke - TDK Style
+$ENDCMP
+#
 $CMP CPOL
 D Capacitor, polarized
 $ENDCMP

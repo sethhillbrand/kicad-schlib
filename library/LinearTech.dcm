@@ -56,6 +56,14 @@ $CMP LTC2492CDE
 D ADC 24bit SPI INL:2 [DFN-14]
 $ENDCMP
 #
+$CMP LTC2495
+D 16-Bit 8-/16-Channel Sigma-Delta ADC with PGA, Easy Drive and I2C Interface
+$ENDCMP
+#
+$CMP LTC6078_[MSOP-8]
+D Micropower Precision, Dual CMOS, Rail-to-Rail [MSOP-8]
+$ENDCMP
+#
 $CMP LTC6101AIS5
 D InAmp CurrentSense 140kHz LowVos [TSOT-23-5]
 $ENDCMP

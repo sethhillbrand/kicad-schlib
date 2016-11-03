@@ -240,6 +240,11 @@ $CMP LM4040AvvDBZ
 D VRef Shunt 0.1% 100ppm/K [SOT-23]
 $ENDCMP
 #
+$CMP LM70
+D Precision Analog Temperature Sensor -55-150C ±0.5C Analog [DSBGA]
+F http://www.ti.com/lit/ds/symlink/lmt70.pdf
+$ENDCMP
+#
 $CMP LM7171AIM
 D OpAmp VFB 200MHz 4100V/µs [SOIC-8]
 $ENDCMP
@@ -270,6 +275,11 @@ $ENDCMP
 #
 $CMP LMR62014XMF
 D Reg Boost in:14V AdjV 1.4A 1.6MHz [SOT-23-5]
+$ENDCMP
+#
+$CMP LMT70
+D Precision Analog Temperature Sensor -55-150C ±0.5C Analog [DSBGA]
+F http://www.ti.com/lit/ds/symlink/lmt70.pdf
 $ENDCMP
 #
 $CMP LMV324ID
@@ -357,6 +367,12 @@ D OpAmp.4 5.5MHz RRI RRO CMOS VLowVos VLowIB LowNoise [TSSOP-14]
 $ENDCMP
 #
 $CMP OPA615IDGS
+D Wide-Bandwidth, DC Restoration Circuit [MSOP-10]
+K Operational Transconductance Amplifier, Buffer, OpAmp
+F http://www.ti.com/lit/ds/symlink/opa615.pdf
+$ENDCMP
+#
+$CMP OPA615IDR
 D Wide-Bandwidth, DC Restoration Circuit [MSOP-10]
 K Operational Transconductance Amplifier, Buffer, OpAmp
 F http://www.ti.com/lit/ds/symlink/opa615.pdf
@@ -476,6 +492,10 @@ $ENDCMP
 #
 $CMP TLV702vvDSE
 D Reg LDO 300mA [WSON-6]
+$ENDCMP
+#
+$CMP TMP20
+D ±2.5°C Low-Power, Analog Out TEMPERATURE SENSOR [SC70-5]
 $ENDCMP
 #
 $CMP TPIC6B595DW
