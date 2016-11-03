@@ -83,4 +83,8 @@ D Test point
 F mod_pdf/TEST.pdf
 $ENDCMP
 #
+$CMP Via-13mil
+D Fiducial, 1.5mm copper, 3mm mask
+$ENDCMP
+#
 #End Doc Library
