@@ -32,6 +32,11 @@ $CMP MAX2650
 D RFAmp 1GHz 18dB [SOT-143]
 $ENDCMP
 #
+$CMP MAX326
+D AnSwitch SPST CMOS Quad 44V NC [SOIC-16]
+F http://datasheets.maximintegrated.com/en/ds/MAX326-MAX327.pdf
+$ENDCMP
+#
 $CMP MAX4567EEE
 D AnSwitch.2 SPDT CMOS ±6V [QSOP-16]
 $ENDCMP

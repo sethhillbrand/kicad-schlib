@@ -28,6 +28,12 @@ $CMP LT1931ES5
 D Reg Invert in:16V AdjV 1A 1.2MHz [TSOT-23-5]
 $ENDCMP
 #
+$CMP LT2057IMS
+D OpAmp HV ZD 1.5MHz 0.45V/µs [SOIC-10]
+K Zero Drift, High Voltage
+F http://cds.linear.com/docs/en/datasheet/2057f.pdf
+$ENDCMP
+#
 $CMP LT3514EUFD
 D Reg.3 Buck in:36V AdjV 2A/1A/1A 2.2MHz [QFN-28]
 $ENDCMP
