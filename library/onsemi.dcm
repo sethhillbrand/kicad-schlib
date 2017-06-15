@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ESD8104
+D TVS.4 3.3V 8.5Vclamp [UDFN-10]
+$ENDCMP
+#
 $CMP MC1496D
 D ModDemod 300MHz Gilbert [SOIC-14]
 $ENDCMP
@@ -32,8 +36,12 @@ $CMP MC79MvvCDT
 D Reg Lin -500mA [TO-252]
 $ENDCMP
 #
+$CMP NCP565D2T
+D Reg LDO 1.5A Adj [TO-263]
+$ENDCMP
+#
 $CMP NUF2042XV6
-D InputProt RC+TVS USB [SOT-563]
+D InputProt RC+TVS 22ohm 42pF USB [SOT-563]
 $ENDCMP
 #
 #End Doc Library
